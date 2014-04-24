@@ -1,0 +1,22 @@
+
+Schritt 1	Öffne die Datei config.inc.php und
+		schreibe deine Mysql-Daten in die Variablen.
+		Die Mysql-Daten erhälst du von deinem Webhoster.
+
+Schritt 2	Lade alle Dateien in deinen FTP-Ordner.
+
+Schritt 3	Führe jetzt die Datei install.php aus.
+		Rufe die Datei mit dem Browser auf.
+
+
+Anmerkungen	Das Modifizieren dieser Software ist erlaubt.
+		Das Entfernen des Copyrights ist nicht erlaubt.
+
+		Wenn du deine Userid unter Adminid in
+		der config.inc.php eintragen hast,
+		besitzt du Administratorenrechte.
+
+				$adminid = array( 1 );
+		...wird zu...
+				$adminid = array( 1, 2 );
+
